@@ -1,3 +1,4 @@
+.PHONY: run build clean
 
 # to build and run
 run:
