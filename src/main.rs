@@ -12,7 +12,6 @@ fn main() {
         .read_line(&mut name)
         .expect("Can't read the line");
     let name = name.trim();
-
     let secret_number = rand::thread_rng().gen_range(1..=100);
     println!("Hi, {}! Guess the number from 1 to 100.", name);
 
