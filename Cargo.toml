@@ -7,9 +7,13 @@ edition = "2021"
 rand = "0.8.5"
 
 [[bin]]
-name = "main"
-path = "src/main.rs"
+name = "game"
+path = "src/0-game.rs"
 
 [[bin]]
-name = "test"
-path = "src/test.rs"
+name = "primitive"
+path = "src/1-primitive.rs"
+
+[[bin]]
+name = "array"
+path = "src/2-array.rs"
